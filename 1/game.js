@@ -1,4 +1,4 @@
-var _STRINGS = {
+var _STRINGS1 = {
         Ad: {
             Mobile: {
                 Preroll: {
@@ -86,8 +86,9 @@ var _STRINGS = {
         Results: {
             Title: "高分"
         }
-    },
-    _GAME = {
+    };
+    
+var _GAME1 = {
         Card: {
             archer: {
                 name: "疯狂射手",
@@ -249,8 +250,261 @@ var _STRINGS = {
                 description: "一种来自天堂的锤子，可以猛击敌人，破坏部队并使他们减速"
             }
         }
+    };
+var _STRINGS = {
+    "Ad": {
+        "Mobile": {
+            "Preroll": {
+                "ReadyIn": "Battle Ready",
+                "Loading": "Preparing for battle...",
+                "Close": "Close"
+            },
+            "Header": {
+                "ReadyIn": "Battle Ready",
+                "Loading": "Preparing for battle...",
+                "Close": "Close"
+            },
+            "End": {
+                "ReadyIn": "Ad ends in",
+                "Loading": "Please wait...",
+                "Close": "Close"
+            }
+        }
     },
-    _UI = {
+    "Splash": {
+        "Loading": "Loading...",
+        "LogoLine1": "Some text here",
+        "LogoLine2": "Powered by MarketJS (Localized by XiaoXing)",
+        "LogoLine3": "No one"
+    },
+    "Game": {
+        "SelectPlayer": "Select Player",
+        "Win": "Congratulations! You won!",
+        "Lose": "Sorry, you lost!",
+        "Score": "Score",
+        "Time": "Time",
+        "Home": "Home",
+        "Battle": "Start",
+        "CardCollection": "All Cards",
+        "ReplaceCard": "Select a card to replace",
+        "Use": "Use",
+        "Info": "Info",
+        "Sixty": "60",
+        "Thirty": "30",
+        "TimeMinutes": "Seconds",
+        "LeftMinutes": "Minutes",
+        "DoubleElixer": "X2 Elixir Boost",
+        "AdditionalSixty": "+60",
+        "Extra": "Extra",
+        "Sudden": "Sudden Death",
+        "TropiExtra": "- Win the next trophy -",
+        "Tutorial": "Tutorial",
+        "StartTutorial": "Would you like to start the tutorial first?",
+        "Yes": "Start Learning",
+        "No": "I'm a Pro",
+        "Pause": "Pause",
+        "GamePause": "Game Paused",
+        "Resume": "Resume",
+        "Health": "Health",
+        "Duration": "Duration",
+        "Movement": "Movement Speed",
+        "Type": "Type:",
+        "Spell": "Spell",
+        "Troop": "Troop",
+        "Damage": "Attack",
+        "Fast": "Fast",
+        "Normal": "Normal",
+        "Slow": "Slow",
+        "DamagePerSecond": "Damage per Second",
+        "StunDuration": "Stun Duration"
+    },
+    "AIName": {
+        "One": "Gremlin",
+        "Two": "Taco",
+        "Three": "Slippy Ice",
+        "Four": "Sporebug",
+        "Five": "Turkish Fury",
+        "Six": "Cycle Master",
+        "Seven": "Celery King",
+        "Eight": "Skipshot",
+        "Nine": "Temp Worker",
+        "Ten": "99 Milky White"
+    },
+    "Tutorial": {
+        "Welcome": "Welcome back! Let's start your training.",
+        "Destroy": "Your goal is to destroy the enemy's launch tower.",
+        "Ready": "Now, let's begin the battle! Good luck!",
+        "Deploy": "Drag and drop cards to deploy your troops."
+    },
+    "Results": {
+        "Title": "High Score"
+    }
+};
+var _GAME = {
+    "Card": {
+        "archer": {
+            "name": "Mad Archer",
+            "manaUsage": 3,
+            "indexCardNumber": 1,
+            "rangeShot": 70,
+            "rangeDistraction": 110,
+            "speedMovement": 30,
+            "HP": 360,
+            "ATK": 45,
+            "spellcard": false,
+            "description": "A skilled ranged attacker who shoots sharp arrows at enemies."
+        },
+        "ars": {
+            "name": "Rain of Arrows",
+            "manaUsage": 3,
+            "indexCardNumber": 2,
+            "range": true,
+            "spellcard": true,
+            "damage": 300,
+            "description": "Arrows darken the sky, dealing splash damage to enemies."
+        },
+        "warrior": {
+            "name": "Raging Agent",
+            "manaUsage": 4,
+            "indexCardNumber": 3,
+            "range": false,
+            "rangeShot": 0,
+            "rangeDistraction": 70,
+            "speedMovement": 25,
+            "HP": 850,
+            "ATK": 95,
+            "spellcard": false,
+            "description": "A mercenary with a sharp sword, slicing enemies in half."
+        },
+        "berserk": {
+            "name": "Battle Frenzy",
+            "manaUsage": 3,
+            "indexCardNumber": 4,
+            "timeDuration": 4,
+            "range": true,
+            "spellcard": true,
+            "description": "Throws troops into a berserk state, making them attack faster."
+        },
+        "giant": {
+            "name": "Guardian",
+            "manaUsage": 5,
+            "indexCardNumber": 5,
+            "range": false,
+            "rangeShot": 0,
+            "rangeDistraction": 70,
+            "speedMovement": 15,
+            "HP": 2100,
+            "ATK": 75,
+            "spellcard": false,
+            "description": "A massive pirate who only targets towers."
+        },
+        "bomb": {
+            "name": "Goblin Bomber",
+            "manaUsage": 3,
+            "indexCardNumber": 6,
+            "range": true,
+            "rangeShot": 50,
+            "rangeDistraction": 90,
+            "speedMovement": 20,
+            "HP": 300,
+            "ATK": 50,
+            "spellcard": false,
+            "description": "A mischievous goblin who throws bombs, dealing splash damage."
+        },
+        "fireball": {
+            "name": "Fireball",
+            "manaUsage": 4,
+            "indexCardNumber": 7,
+            "range": true,
+            "spellcard": true,
+            "damage": 500,
+            "description": "A blazing fireball that scorches enemies upon impact."
+        },
+        "freezer": {
+            "name": "Frost Bloom",
+            "manaUsage": 4,
+            "indexCardNumber": 8,
+            "timeDuration": 3,
+            "range": true,
+            "spellcard": true,
+            "description": "A chilling blast that freezes towers and units in place."
+        },
+        "axeman": {
+            "name": "Berserker",
+            "manaUsage": 2,
+            "indexCardNumber": 9,
+            "range": false,
+            "rangeShot": 0,
+            "rangeDistraction": 70,
+            "speedMovement": 32,
+            "HP": 420,
+            "ATK": 65,
+            "spellcard": false,
+            "description": "Small but incredibly agile and fast, fighting with unrelenting fury."
+        },
+        "axethrow": {
+            "name": "Reaper",
+            "manaUsage": 3,
+            "indexCardNumber": 10,
+            "range": true,
+            "rangeShot": 50,
+            "rangeDistraction": 80,
+            "speedMovement": 32,
+            "HP": 300,
+            "ATK": 65,
+            "spellcard": false,
+            "description": "A feared warrior who hurls axes at enemies with deadly precision."
+        },
+        "hammer": {
+            "name": "Mad Hammer",
+            "manaUsage": 4,
+            "indexCardNumber": 11,
+            "range": false,
+            "rangeShot": 0,
+            "rangeDistraction": 70,
+            "speedMovement": 25,
+            "HP": 1050,
+            "ATK": 35,
+            "spellcard": false,
+            "description": "A mighty hero wielding a hammer with immense strength and power."
+        },
+        "lightning": {
+            "name": "Lightning Strike",
+            "manaUsage": 2,
+            "indexCardNumber": 12,
+            "range": true,
+            "spellcard": true,
+            "stunTime": 0.4,
+            "damage": 200,
+            "description": "A bolt of lightning strikes enemies, dealing damage and stunning them."
+        },
+        "mage": {
+            "name": "Sorcerer",
+            "manaUsage": 4,
+            "indexCardNumber": 13,
+            "range": true,
+            "rangeShot": 60,
+            "rangeDistraction": 90,
+            "speedMovement": 25,
+            "HP": 420,
+            "ATK": 75,
+            "spellcard": false,
+            "description": "A master of the arcane who wields the power of nature's fire."
+        },
+        "tombcrush": {
+            "name": "Hammer of Thunder",
+            "manaUsage": 4,
+            "indexCardNumber": 0,
+            "timeDuration": 3,
+            "DPS": 10,
+            "range": true,
+            "spellcard": false,
+            "description": "A divine hammer from the heavens, smashing enemies and slowing them down."
+        }
+    }
+}
+
+var _UI = {
         winresult: {
             frames: {
                 "blue-big-helm": {
