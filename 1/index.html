@@ -9,6 +9,24 @@
 	<meta name="viewport" content="initial-scale=1.0001, minimum-scale=1.0001, maximum-scale=1.0001, user-scalable=no, minimal-ui"/>	
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<link rel="stylesheet" type="text/css" href="game.css">	
+	<script src="https://sad.adsgram.ai/js/sad.min.js"></script>
+	<script 
+    async 
+    src="https://tganalytics.xyz/index.js" 
+    onload="initAnalytics()" 
+    type="text/javascript"
+></script>
+<script>
+	function initAnalytics() {
+		window.telegramAnalytics.init({
+			token: 'eyJhcHBfbmFtZSI6IkNsYXNoT2ZWaWtpbmdzMiIsImFwcF91cmwiOiJodHRwczovL3QubWUvQ2xhc2hPZlZpa2luZ3NCb3QvQ2xhc2hPZlZpa2luZ3MiLCJhcHBfZG9tYWluIjoiaHR0cHM6Ly95bXJkZi5naXRodWIuaW8ifQ==!LnEnlbQgExxZTaSCi89McFHlmGmLruwicoez74MV6QU=',
+			appName: 'ClashOfVikings2',
+		});
+		console.log("-------",window.telegramAnalytics)
+		const AdController = window.Adsgram.init({ blockId: "int-8678" });
+		//int-8678
+	}
+</script>
 	<script type="text/javascript" src="game.js"></script>
 	
 <!-- AnalyticsCode -->	
