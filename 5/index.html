@@ -4,7 +4,12 @@
 <meta charset="UTF-8">
 <title>HTML5 3D魔方小游戏 - 源码之家</title>
 <meta name="viewport" content="width=device-width,height=device-height,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
-
+<script 
+    async 
+    src="https://tganalytics.xyz/index.js" 
+    onload="initAnalytics()" 
+    type="text/javascript"
+></script>
 <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -82,5 +87,13 @@
 
 <script src='js/three.min.js'></script>
 <script src="js/index.js"></script>
+<script>
+  function initAnalytics() {
+    window.telegramAnalytics.init({
+      token: 'eyJhcHBfbmFtZSI6IlRocmVlREN1YmVCb3QiLCJhcHBfdXJsIjoiaHR0cHM6Ly90Lm1lL1RocmVlREN1YmVCb3QvVGhlQ3ViZSIsImFwcF9kb21haW4iOiJodHRwczovL3ltcmRmLmdpdGh1Yi5pbyJ9!u/h/27BMzq9+maiwDAejjVRrnpTxD5zPsRN62ebNH98=', // SDK Auth token received via @DataChief_bot
+      appName: 'ThreeDCubeBot', // The analytics identifier you entered in @DataChief_bot
+    });
+  }
+</script>
 </body>
 </html>
