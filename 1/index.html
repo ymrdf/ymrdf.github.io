@@ -25,7 +25,6 @@
 			appName: 'ClashOfVikings2',
 		});
 		console.log("-------",window.telegramAnalytics)
-		const AdController = window.Adsgram.init({ blockId: "int-8678" });
 		//int-8678
 	}
 </script>
@@ -45,5 +44,11 @@
 		<div id="orientate"><img src="media/graphics/orientate/landscape.jpg" /></div>
 		<div id="play" class="play" onClick=""><img src="media/graphics/splash/mobile/cover-start.jpg" /></div>	
 	</div>	 
+	<script>
+		try {
+				const AdController = window.Adsgram.init({ blockId: "int-8942" });
+		} catch (error) {
+		}
+	</script>
 </body>
 </html>
